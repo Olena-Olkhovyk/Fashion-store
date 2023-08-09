@@ -3,3 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 13px rgba(0, 0, 0, 0.06);
+    padding: 15px 60px;
+    background:#E3E6F3;
+
+}
+img{
+    width: 70px;
+    height: auto;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    cursor: pointer;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight:700;
+    color:#1a1a1a;
+    transition: 0.4s ease ;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color:rgba(219, 129, 19, 0.881);
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    background-color:rgba(219, 129, 19, 0.881);
+    bottom: -3px;
+    left: 20px;
+}
