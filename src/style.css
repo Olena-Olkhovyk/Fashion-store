@@ -52,3 +52,44 @@ img{
     left: 20px;
 }
 /* END OF NAVBAR */
+
+/*HERO SECTION */
+#hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+#hero .sub-header{
+    margin-top:13rem;
+    width: 100%;
+}
+#hero h1{
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+    color:#DC8D2E;
+}
+#hero h4{
+    font-size: 25px;
+    margin-bottom: 1rem;
+    padding-left: 3.5rem;
+}
+#hero .btn{
+    display: block;
+    margin-left: 12rem;
+    padding: 15px 25px;
+    border: 1px solid #DC8D2E;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+#hero .btn:hover{
+    background-color:#DC8D2E;
+    color:white;
+    cursor:pointer;
+}
+.hero-img{
+    width: 400px;
+    height: auto;
+}
+/* END OF HERO SECTION */
