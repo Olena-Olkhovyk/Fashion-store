@@ -6,6 +6,7 @@
 body{
     width: 100%;
 }
+/* NAVBAR */
 #header{
     display: flex;
     align-items: center;
@@ -13,7 +14,6 @@ body{
     box-shadow: 0 4px 13px rgba(0, 0, 0, 0.06);
     padding: 15px 60px;
     background:#E3E6F3;
-
 }
 img{
     width: 70px;
@@ -51,3 +51,4 @@ img{
     bottom: -3px;
     left: 20px;
 }
+/* END OF NAVBAR */
