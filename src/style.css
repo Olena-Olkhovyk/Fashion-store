@@ -116,8 +116,22 @@ img{
 .feature-box img{
     width: 200px;
     height: auto;
+    margin-bottom: 10px;
 }
 .feature-box h4{
    text-align: center;
+   padding: 9px 8px 6px 8px;
+}
+#feature .feature-box:nth-child(1) h4{
+    background-color: #DC8D2E;
+}
+#feature .feature-box:nth-child(2) h4{
+    background-color: #DC8D2E;
+}
+#feature .feature-box:nth-child(3) h4{
+    background-color: #DC8D2E;
+}
+#feature .feature-box:nth-child(4) h4{
+    background-color: #DC8D2E;
 }
 /* END OF FEATURE SECTION */
