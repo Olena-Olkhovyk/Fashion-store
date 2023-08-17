@@ -96,3 +96,28 @@ img{
     height: auto;
 }
 /* END OF HERO SECTION */
+
+/* FEATURE SECTION */
+#feature{
+    display: flex;
+    justify-content: space-between;
+}
+.feature-box{
+    width:200px;
+    border:1px solid black;
+    margin: 2rem;
+    
+}
+.feature-box:hover{
+    background-color:#dc8e2ea1;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.feature-box img{
+    width: 200px;
+    height: auto;
+}
+.feature-box h4{
+   text-align: center;
+}
+/* END OF FEATURE SECTION */
