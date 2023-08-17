@@ -101,6 +101,7 @@ img{
 #feature{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .feature-box{
     width:200px;
