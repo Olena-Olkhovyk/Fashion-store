@@ -156,6 +156,7 @@ body{
     padding: 10px 12px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     transform: 2s ease;
+    border-radius: 20px;
 }
 #product1 .pro:hover{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.04);
