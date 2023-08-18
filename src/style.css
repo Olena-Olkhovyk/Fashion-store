@@ -195,3 +195,35 @@ body{
 
 }
 /* END OF PRODUCT SECTION  */
+
+/* BANNER SECTION */
+#banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/banner/ban.jpg);
+    background-size: cover;
+    background-position: top 35% center;
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 1rem;
+}
+#banner h2{
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+#banner button{
+    padding: 15px 25px;
+    border: 1px solid #DC8D2E;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+#banner button:hover{
+    background-color:#DC8D2E;
+    color:white;
+    cursor:pointer;
+}
+/* END OF BANNER SECTION */
