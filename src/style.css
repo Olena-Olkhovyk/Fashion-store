@@ -305,6 +305,11 @@ footer .copyr{
         justify-content: space-between;
         padding: 0 30px;
     }
-   
+    #feature {
+        justify-content:center;
+    }
+    .feature-box {
+        margin: 1rem;
+    }
 }
 /* END OF MEDIA QUERY */
