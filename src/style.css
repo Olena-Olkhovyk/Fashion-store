@@ -155,7 +155,7 @@ body{
     min-width: 250px;
     border:1px solid black;
     position: relative;
-    margin: 14px 8px;
+    margin: 14px 0;
     padding: 10px 12px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     transform: 2s ease;
@@ -275,7 +275,7 @@ footer .copyr{
 /* END OF THE FOOTER */
 
 /* MEDIA QUERY */
-@media(max-width:799px){
+@media(max-width:1000px){
     #navbar{
         display: flex;
         flex-direction: column;
@@ -310,6 +310,23 @@ footer .copyr{
     }
     .feature-box {
         margin: 1rem;
+    }
+    /* #product1 .products-container {
+        justify-content: center;
+   } */
+}
+@media(max-width:464px){
+    /* #header {
+        padding: 10px 30px;
+    } */
+    .feature-box {
+        width: 350px;
+        border: 1px solid black;
+        margin: 2rem;
+    }
+    .feature-box img {
+        width: 350px;
+        height: auto;
     }
 }
 /* END OF MEDIA QUERY */
