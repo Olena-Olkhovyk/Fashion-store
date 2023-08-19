@@ -311,11 +311,11 @@ footer .copyr{
     .feature-box {
         margin: 1rem;
     }
-    /* #product1 .products-container {
+    #product1 .products-container {
         justify-content: center;
-   } */
+   }
 }
-@media(max-width:464px){
+@media(max-width:492px){
     /* #header {
         padding: 10px 30px;
     } */
@@ -327,6 +327,10 @@ footer .copyr{
     .feature-box img {
         width: 350px;
         height: auto;
+    }
+    #product1 .pro {
+        width: 40%;
+        min-width: 350px;
     }
 }
 /* END OF MEDIA QUERY */
