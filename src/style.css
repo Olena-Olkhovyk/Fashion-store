@@ -263,4 +263,10 @@ footer .col a{
 footer .col a:hover{
     color:black;
 }
+footer .copyr{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color:rgb(73, 72, 72);
+}
 /* END OF THE FOOTER */
