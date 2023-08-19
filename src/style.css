@@ -302,8 +302,19 @@ footer .copyr{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
-        padding: 0 30px;
+    }
+    #hero .sub-header {
+        margin-top: 2rem;
+    }
+    #hero h1 {
+        text-align: center;
+    }
+    #hero h4 {
+        text-align: center;
+    }
+    #hero .btn {
+        display: block;
+        margin: 0 auto;
     }
     #feature {
         justify-content:center;
@@ -331,6 +342,16 @@ footer .copyr{
     #product1 .pro {
         width: 40%;
         min-width: 350px;
+    }
+    
+    .hero-img {
+        width: 250px;
+    }
+    #hero h1 {
+        font-size: 25px;
+    }
+    #hero h4 {
+        font-size: 15px;
     }
 }
 /* END OF MEDIA QUERY */
