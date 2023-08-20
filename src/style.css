@@ -336,7 +336,7 @@ footer .copyr{
    /*SHOP*/
 
 }
-@media(max-width:492px){
+@media(max-width:500px){
     /* #header {
         padding: 10px 30px;
     } */
@@ -365,5 +365,23 @@ footer .copyr{
     }
       /*SHOP*/
  
+}
+@media(max-width:350px){
+    #product1 .pro {
+        width: 30%;
+        min-width: 300px;
+    }
+    .hero-img {
+        width: 290px;
+    }
+    .feature-box {
+        width: 290px;
+        border: 1px solid black;
+        margin: 1rem;
+    }
+    .feature-box img {
+        width: 200px;
+        height: auto;
+    }
 }
 /* END OF MEDIA QUERY */
