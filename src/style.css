@@ -273,7 +273,15 @@ footer .copyr{
     color:rgb(73, 72, 72);
 }
 /* END OF THE FOOTER */
-
+/*Shop page*/
+#shop-hero{
+    background-image: url(../img/banner/ban2.jpg);
+    background-position: right 70% top 50%;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+/*End of shop page*/
 /* MEDIA QUERY */
 @media(max-width:1000px){
     #navbar{
@@ -325,6 +333,8 @@ footer .copyr{
     #product1 .products-container {
         justify-content: center;
    }
+   /*SHOP*/
+
 }
 @media(max-width:492px){
     /* #header {
@@ -353,5 +363,7 @@ footer .copyr{
     #hero h4 {
         font-size: 15px;
     }
+      /*SHOP*/
+ 
 }
 /* END OF MEDIA QUERY */
