@@ -434,7 +434,6 @@ font-size: 25px;
         width: 40%;
         min-width: 350px;
     }
-    
     .hero-img {
         width: 250px;
     }
@@ -444,7 +443,17 @@ font-size: 25px;
     #hero h4 {
         font-size: 15px;
     }
-      /*SHOP*/
+    #pro-details {
+        display: flex;
+        flex-direction: column;
+    }
+    #pro-details .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .single-pro-details {
+        width: 100%;
+    }
  
 }
 @media(max-width:350px){
