@@ -316,10 +316,6 @@ footer .copyr{
     cursor: pointer;
     flex-basis: 24%;
 }
-.firstImg{
-    width: 100%;
-    height: auto;
-}
 /*End of product page*/
 /* MEDIA QUERY */
 @media(max-width:1000px){
