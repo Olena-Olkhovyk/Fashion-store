@@ -55,6 +55,7 @@
               src="./img/products/air force/shoes1.webp"
               width="100%"
               alt="air force"
+              class="small-img"
             />
           </div>
           <div class="small-img-col">
@@ -62,6 +63,7 @@
               src="./img/products/air force/shoes2.webp"
               width="100%"
               alt="air force"
+              class="small-img"
             />
           </div>
           <div class="small-img-col">
@@ -69,6 +71,7 @@
               src="./img/products/air force/shoes3.webp"
               width="100%"
               alt="air force"
+              class="small-img"
             />
           </div>
           <div class="small-img-col">
@@ -76,6 +79,7 @@
               src="./img/products/air force/shoes4.webp"
               width="100%"
               alt="air force"
+              class="small-img"
             />
           </div>
         </div>
@@ -155,6 +159,25 @@
       <span class="copyr">©2023 Fashion Store created by Olena Olkhovyk🤩</span>
     </footer>
     <!-- END OF THE FOOTER -->
+    <script>
+        //Select main big picture
+        const mainImg=document.getElementById('mainImg');
+        //Select all small pics
+        const smallimgs=document.querySelectorAll('.small-img');
+        //Make func which allows change big pic src when user click on small pic
+        smallimgs[0].onclick = function(){
+            mainImg.src=smallimgs[0].src;
+        }
+        smallimgs[1].onclick=function(){
+            mainImg.src=smallimgs[1].src;
+        }
+        smallimgs[2].onclick=function(){
+            mainImg.src=smallimgs[2].src;
+        }
+        smallimgs[3].onclick=function(){
+            mainImg.src=smallimgs[3].src;
+        }
+    </script>
     <script src="./src/script.js"></script>
   </body>
 </html>
