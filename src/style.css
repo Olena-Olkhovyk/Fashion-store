@@ -274,6 +274,9 @@ footer .copyr{
 }
 /* END OF THE FOOTER */
 /*Shop page*/
+.pro{
+    cursor: pointer;
+}
 #shop-hero{
     background-image: url(../img/banner/ban2.jpg);
     background-position: right 70% top 50%;
