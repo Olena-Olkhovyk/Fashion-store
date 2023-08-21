@@ -375,6 +375,27 @@ font-size: 25px;
     text-align: center;
     padding-top: 5rem;
 }
+#about-us{
+    display: flex;
+    justify-content: space-between;
+}
+#about-us img{
+    width: 50%;
+    height: auto;
+}
+.about-details{
+   padding-top: 20px;
+   padding-left: 50px;
+}
+.about-details h1{
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+.about-details p{
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 1rem;
+}
 /*END OF  ABOUT PAGE */
 /* MEDIA QUERY */
 @media(max-width:1000px){
@@ -467,7 +488,15 @@ font-size: 25px;
     .single-pro-details {
         width: 100%;
     }
- 
+    #about-us {
+        flex-direction: column;
+    }
+    #about-us img {
+        width: 100%;
+    }
+    .about-details{
+        padding-left: 0px;
+     }
 }
 @media(max-width:350px){
     #product1 .pro {
