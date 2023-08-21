@@ -363,6 +363,19 @@ font-size: 25px;
     line-height: 20px;
 }
 /*End of product page*/
+/* ABOUT PAGE */
+#about-hero{
+    background-image: url(../img/banner/back.jpg);
+    background-position: right 70% top 50%;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+#about-hero h1{
+    text-align: center;
+    padding-top: 5rem;
+}
+/*END OF  ABOUT PAGE */
 /* MEDIA QUERY */
 @media(max-width:1000px){
     #navbar{
