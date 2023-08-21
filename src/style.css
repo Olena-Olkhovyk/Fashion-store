@@ -300,6 +300,27 @@ footer .copyr{
     margin-top: 2rem;
 }
 /*End of shop page*/
+/*Product page*/
+#pro-details{
+    padding: 15px;
+}
+#pro-details .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+.small-imgs{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    cursor: pointer;
+    flex-basis: 24%;
+}
+.firstImg{
+    width: 100%;
+    height: auto;
+}
+/*End of product page*/
 /* MEDIA QUERY */
 @media(max-width:1000px){
     #navbar{
