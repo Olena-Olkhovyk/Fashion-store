@@ -406,7 +406,7 @@ font-size: 25px;
 #contact-details .map{
   width: 50%;
   height:300px;
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
 }
 #contact-details .map iframe{
     width: 100%;
@@ -433,6 +433,66 @@ font-size: 25px;
     padding: 8px 0;
     font-size: 18px;
 }
+#form{
+    display:flex;
+    gap:6rem;
+}
+#form form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding:0 20px;
+    text-align: center;
+}
+#form form .input{
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 1rem;
+}
+#form form textarea{
+    margin-bottom: 1rem;
+}
+#form button{
+    margin:0 auto;
+    padding: 15px 20px;
+    border: 1px solid #DC8D2E;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+#form button:hover{
+    background-color:#DC8D2E;
+    color:white;
+    cursor:pointer;
+}
+.img-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+.img-container .person-img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-bottom: 0.8rem;
+  }
+  .people{
+    display:flex;
+  }
+  .info{
+    padding: 0 0 0 10px;
+  }
+  .info li{
+    list-style: none;
+    margin-bottom: 0.4rem;
+  }
+  .info h3{
+    margin-bottom: 1rem;
+  }
 /*END CONTACT PAGE*/
 /* MEDIA QUERY */
 @media(max-width:1000px){
@@ -485,8 +545,18 @@ font-size: 25px;
     #product1 .products-container {
         justify-content: center;
    }
-   /*SHOP*/
-
+   /*CONTACT PAGE*/
+    #form {
+    flex-direction: column;
+    }
+    #form form {
+        width: 100%;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .people {
+        margin: 0 auto;
+    }
 }
 @media(max-width:500px){
     .feature-box {
@@ -543,7 +613,7 @@ font-size: 25px;
         width: 100%;
         height:auto;
         margin-bottom: 0;
-      }
+    }
 }
 @media(max-width:350px){
     #product1 .pro {
