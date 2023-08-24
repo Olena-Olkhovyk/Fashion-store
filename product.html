@@ -30,11 +30,13 @@
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><i class="fa-solid fa-cart-shopping cart-icon"></i></li>
-          <a href="#" id='closeMenu'><i class="fa-solid fa-xmark"></i></a>
+          <a href="#" id="closeMenu"><i class="fa-solid fa-xmark"></i></a>
         </ul>
       </div>
       <div class="mobile">
-        <a href="#"><i class="fa-solid fa-bars hamburger" style="color: #0f0f0f"></i></a>
+        <a href="#"
+          ><i class="fa-solid fa-bars hamburger" style="color: #0f0f0f"></i
+        ></a>
         <a href="#"
           ><i class="fa-solid fa-cart-shopping" style="color: #111213"></i
         ></a>
@@ -161,23 +163,23 @@
     </footer>
     <!-- END OF THE FOOTER -->
     <script>
-        //Select main big picture
-        const mainImg=document.getElementById('mainImg');
-        //Select all small pics
-        const smallimgs=document.querySelectorAll('.small-img');
-        //Make func which allows change big pic src when user click on small pic
-        smallimgs[0].onclick = function(){
-            mainImg.src=smallimgs[0].src;
-        }
-        smallimgs[1].onclick=function(){
-            mainImg.src=smallimgs[1].src;
-        }
-        smallimgs[2].onclick=function(){
-            mainImg.src=smallimgs[2].src;
-        }
-        smallimgs[3].onclick=function(){
-            mainImg.src=smallimgs[3].src;
-        }
+      //Select main big picture
+      const mainImg = document.getElementById("mainImg");
+      //Select all small pics
+      const smallimgs = document.querySelectorAll(".small-img");
+      //Make func which allows change big pic src when user click on small pic
+      smallimgs[0].onclick = function () {
+        mainImg.src = smallimgs[0].src;
+      };
+      smallimgs[1].onclick = function () {
+        mainImg.src = smallimgs[1].src;
+      };
+      smallimgs[2].onclick = function () {
+        mainImg.src = smallimgs[2].src;
+      };
+      smallimgs[3].onclick = function () {
+        mainImg.src = smallimgs[3].src;
+      };
     </script>
     <script src="./src/script.js"></script>
   </body>
