@@ -174,13 +174,46 @@ const detailProducts=[
         imgSrc4:"./img/products/air force/shoes4.webp",
         name:"Men's fashion trainers",
         price:"89",
-        details:"Air Force Ones are high-quality leather shoes that occasionally use synthetic leather. And since Nike must live up to the reputation and"
+        details:"Air Force Ones are high-quality leather shoes that occasionally use synthetic leather. And since Nike must live up to the reputation and price charged for its high-end shoes, using genuine leather is  natural.Air Force Ones are made of a combination of leather and rubber1. Some parts of the shoe also include suede, canvas, and other different materials1. The shoes are typically made of EVA  foam, lightweight plastic and mesh fabrics2. The Nike Air technology makes the soles of these shoes flexible, durable, and elastic3. The original high-top Air Force 1 is intended for intense sport and the grip of the concentric circle outsole makes them perfect for use on the court3."
     },
     {
-        id:0,
-        imgSrcBig:"./img/products/air force/shoes1.webp",
-        imgSrc2:"./img/products/air force/shoes2.webp",
-        imgSrc3:"./img/products/air force/shoes3.webp",
-        imgSrc4:"./img/products/air force/shoes4.webp"
+        id:1,
+        imgSrcBig:"./img/products/jeans/straight leg jeans.webp",
+        imgSrc2:"./img/products/jeans/straight leg jeans2.webp",
+        imgSrc3:"./img/products/jeans/straight leg jeans3.webp",
+        imgSrc4:"./img/products/jeans/straight leg jeans4.webp",
+        name:"BIG SUR - Straight leg jeans",
+        price:"90",
+        details:"Straight leg jeans are denim pants that are cut so that the diameter of the leg opening is almost exactly the same from the knee down to the ankle. They differ from flare jeans and that begin to widen at the middle of the calf and bell bottoms that begin to widen at the knee."
+    },
+    {
+        id:2,
+        imgSrcBig:"./img/products/shirt/short sleeve - Shirt.webp",
+        imgSrc2:"./img/products/shirt/shirt2.webp",
+        imgSrc3:"./img/products/shirt/shirt3.webp",
+        imgSrc4:"./img/products/shirt/shirt4.webp",
+        name:"JOIN LIFE - Basic T-shirt",
+        price:"99",
+        details:"later"
+    },
+    {
+        id:3,
+        imgSrcBig:"./img/products/shoos/lacosta1.webp",
+        imgSrc2:"./img/products/shoos/lacosta2.webp",
+        imgSrc3:"./img/products/shoos/lacosta3.webp",
+        imgSrc4:"./img/products/shoos/lacosta4.webp",
+        name:"T-CLIPS -Modern Trainers",
+        price:"90",
+        details:"later"
+    },
+    {
+        id:4,
+        imgSrcBig:"./img/products/shoos/lacosta1.webp",
+        imgSrc2:"./img/products/shoos/lacosta2.webp",
+        imgSrc3:"./img/products/shoos/lacosta3.webp",
+        imgSrc4:"./img/products/shoos/lacosta4.webp",
+        name:"T-CLIPS -Modern Trainers",
+        price:"90",
+        details:"later"
     },
 ]
