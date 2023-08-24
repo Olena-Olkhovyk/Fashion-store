@@ -34,7 +34,9 @@ summerCollection.forEach((product)=>{
         </div>
     `
 })
+// Create function which as paremeters took id of product items from items.js
 function redirectToProduct(product_id){
+  //Give a way to product.html file plus put inside url id of each product item
     window.location.href=`product.html?product_id=${product_id}`;
 }
 
@@ -43,7 +45,7 @@ allProductsContainer.innerHTML='';
 //Insert all of the product items to shop page
 allProducts.forEach((product)=>{
     allProductsContainer.innerHTML+=`
-    <div class="pro">
+    <div class="pro" onclick="redirectToProduct('${product.id}');">
           <img
             src="${product.imgSrc}"
             alt="air force sport shoes"

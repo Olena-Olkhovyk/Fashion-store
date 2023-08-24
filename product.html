@@ -44,9 +44,7 @@
     </section>
     <!-- END OF NAVBAR SECTION -->
     <section id="pro-details">
-      <div class="detailCont">
-
-    </div>
+      <div class="detailCont"></div>
     </section>
     <!-- FOOTER -->
     <footer class="shop-footer">
@@ -93,105 +91,7 @@
     </footer>
     <!-- END OF THE FOOTER -->
     <script src="./src/items.js"></script>
+    <script src="./src/productDetail.js"></script>
     <script src="./src/script.js"></script>
-    <script>
-      const queryString = window.location.search;
-      const urlParams = new URLSearchParams(queryString);
-      const productId = urlParams.get('product_id');
-      //your product Id 
-      console.log(productId);
-
-      const detailCont=document.querySelector('.detailCont');
-
-const product = detailProducts.find(product => product.id === productId);
-if(product){
-    detailCont.innerHTML+=`
-    <div class="single-pro-image">
-    <img
-      src="${product.imgSrcBig}"
-      width="100%"
-      id="mainImg"
-      class="firstImg"
-      alt="air force"
-    />
-    <div class="small-imgs">
-      <div class="small-img-col">
-        <img
-          src="${prod.imgSrcBig}"
-          width="100%"
-          alt="air force"
-          class="small-img"
-        />
-      </div>
-      <div class="small-img-col">
-        <img
-          src="${prod.imgSrc2}"
-          width="100%"
-          alt="air force"
-          class="small-img"
-        />
-      </div>
-      <div class="small-img-col">
-        <img
-          src="${prod.imgSrc3}"
-          width="100%"
-          alt="air force"
-          class="small-img"
-        />
-      </div>
-      <div class="small-img-col">
-        <img
-          src="${prod.imgSrc4}"
-          width="100%"
-          alt="air force"
-          class="small-img"
-        />
-      </div>
-    </div>
-  </div>
-  <div class="single-pro-details">
-    <h3>${prod.name}</h3>
-    <h2>${prod.price}</h2>
-    <select>
-      <option>Select size</option>
-      <option>XL</option>
-      <option>XXL</option>
-      <option>Small</option>
-      <option>Large</option>
-    </select>
-    <input type="number" value="1" />
-    <button>Add to cart</button>
-    <h2>Product details</h2>
-    <p>
-      <span
-        >
-        ${prod.details}
-      </span>
-    </p>
-  </div>
-    `
-}
-
-      // //Select main big picture
-      // const mainImg = document.getElementById("mainImg");
-      // //Select all small pics
-      // const smallimgs = document.querySelectorAll(".small-img");
-      // //Make func which allows change big pic src when user click on small pic
-      // smallimgs[0].onclick = function () {
-      //   mainImg.src = smallimgs[0].src;
-      // };
-      // smallimgs[1].onclick = function () {
-      //   mainImg.src = smallimgs[1].src;
-      // };
-      // smallimgs[2].onclick = function () {
-      //   mainImg.src = smallimgs[2].src;
-      // };
-      // smallimgs[3].onclick = function () {
-      //   mainImg.src = smallimgs[3].src;
-      // };
-      
-      
-    </script>
-   
   </body>
 </html>
