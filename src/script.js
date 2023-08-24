@@ -12,10 +12,12 @@ if(closeMenu){
     })
 }
 
-//Select container in which I will insert products from items.js
+//Select container in which I will insert summer collection clothes
 const productSummerContainer=document.querySelector(".products-container");
+//Select container in which I will insert all of the products items
 const allProductsContainer=document.querySelector(".all-items");
 
+//Insert summer collection clothes to landing page(ind.html)
 summerCollection.forEach((product)=>{
     productSummerContainer.innerHTML+= `
     <div class="pro">
@@ -33,8 +35,11 @@ summerCollection.forEach((product)=>{
     `
 })
 
+//Clear container
+allProductsContainer.innerHTML='';
+//Insert all of the product items to shop page
 allProducts.forEach((product)=>{
-    allProductsContainer.innerHTML+=`
+   allProductsContainer.innerHTML+=`
     <div class="pro" onclick="window.location.href='product.html';">
           <img
             src="${product.imgSrc}"
