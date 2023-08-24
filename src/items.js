@@ -164,3 +164,23 @@ const allProducts=[
         price: 80,
       },
 ]
+
+const detailProducts=[
+    {
+        id:0,
+        imgSrcBig:"./img/products/air force/shoes1.webp",
+        imgSrc2:"./img/products/air force/shoes2.webp",
+        imgSrc3:"./img/products/air force/shoes3.webp",
+        imgSrc4:"./img/products/air force/shoes4.webp",
+        name:"Men's fashion trainers",
+        price:"89",
+        details:"Air Force Ones are high-quality leather shoes that occasionally use synthetic leather. And since Nike must live up to the reputation and"
+    },
+    {
+        id:0,
+        imgSrcBig:"./img/products/air force/shoes1.webp",
+        imgSrc2:"./img/products/air force/shoes2.webp",
+        imgSrc3:"./img/products/air force/shoes3.webp",
+        imgSrc4:"./img/products/air force/shoes4.webp"
+    },
+]
