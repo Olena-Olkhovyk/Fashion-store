@@ -75,6 +75,57 @@ body{
 }
 /* END OF NAVBAR */
 
+/* CART */
+#cart {
+    width: 100%;
+    position: relative;
+    /* display: none; */
+    padding: 15px 8px;
+    background: #e3e6f3;
+    cursor: pointer;
+  }
+.items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+.delete{
+    color: black;
+}
+.delete:hover{
+    color:rgba(0, 0, 0, 0.637);
+}
+#cart img {
+    width: 40px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+.unit-price {
+    font-size: 20px;
+    /* right: 250px; */
+  }
+.units {
+    display: flex;
+    gap: 4px;
+    /* right: 40px; */
+  }
+.units button {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
+.cart-footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(219, 129, 19, 0.881);
+    font-size: 20px;
+  }
+.cart-footer .close {
+    cursor: pointer;
+    font-size: 25px;
+  }
+/* END OF THE CART */
+
 /*HERO SECTION */
 #hero{
     display: flex;
