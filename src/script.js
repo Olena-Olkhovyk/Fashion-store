@@ -30,7 +30,7 @@ summerCollection.forEach((product)=>{
             <h4 onclick="redirectToProduct('${product.id}');">${product.name}</h4>
             <h3>${product.price}$</h3>
           </div>
-          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          <a href="#" onclick='addToCart(${product.id})'><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
     `
 })
@@ -55,7 +55,7 @@ allProducts.forEach((product)=>{
             <h4 onclick="redirectToProduct('${product.id}');">${product.name}</h4>
             <h3>${product.price}$</h3>
           </div>
-          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          <a href="#" onclick='addToCart(${product.id})'><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
     `
 })
