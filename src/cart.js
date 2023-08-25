@@ -21,7 +21,8 @@ closeCart.addEventListener('click',()=>{
 })
 
 //Create a variable for storing there all of our products
-let cart=[];
+let cart=JSON.parse(localStorage.getItem("CART"))||[];
+updateCart();
 
 function addToCart(id){
     //Check if item is already in the cart
@@ -47,6 +48,7 @@ function addToCart(id){
 function updateCart(){
     renderCart();
     renderSubtotal()
+    localStorage.setItem("CART",JSON.stringify(cart));
 }
 
 //Insert items into cart container
@@ -87,6 +89,7 @@ function changeNumberOfUnits(action,id){
             oldNumberOfUnits--;
         }
         }
+        localStorage.setItem("CART",JSON.stringify(cart));
         return{
             ...item,
             numberOfUnits:oldNumberOfUnits
