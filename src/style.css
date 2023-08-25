@@ -298,6 +298,10 @@ body{
     color:white;
     cursor:pointer;
 }
+#banner a{
+    text-decoration: none;
+    color: black;
+}
 /* END OF BANNER SECTION */
 
 /* FOOTER SECTION */
