@@ -55,6 +55,18 @@ body{
     bottom: -3px;
     left: 20px;
 }
+.onl-cart{
+    position: relative;
+}
+.total-items-in-cart{
+    position: absolute;
+    right: 0px;
+    top:-10px;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: rgba(219, 129, 19, 0.881);
+    padding: 0.5px 2px;
+}
 #closeMenu{
     display: none;
 }
