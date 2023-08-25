@@ -14,6 +14,8 @@ const totalItemEl=document.querySelector('.total-items-in-cart');
 //Opening cart
 openCart.addEventListener('click',()=>{
     cartCont.style.display='block';
+//Close menu when open cart 
+    navMenu.classList.remove('active')
 })
 //Closing cart
 closeCart.addEventListener('click',()=>{
