@@ -111,3 +111,10 @@ function changeNumberOfUnits(action,id){
     //Insert on page amount of items in cart
     totalItemEl.innerHTML=totalItems;
 }
+
+//Remove items from cart
+function removeItem(id){
+    //With filter we leave in cart only those items which isnt the same id with id wich we press
+    cart=cart.filter((item)=>item.id!==id)
+    updateCart();
+}
