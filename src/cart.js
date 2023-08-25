@@ -22,9 +22,10 @@ let cart=[];
 function addToCart(id){
     //Check if item is already in the cart
     if(cart.some((item)=>item.id===id)){
-       alert('Is already in cart')
+        //Then we increase item in cart
+        changeNumberOfUnits('plus',id)
     }else{
-    //Looking for item we pressed in items.js
+    //Looking for item we pressed in items.js snd if its not in cart we push it to cart
      let item=allProducts.find((product)=>product.id===id)
      //Adding item to cart
      cart.push(
@@ -56,11 +57,11 @@ function renderCart(){
             <h4>${item.name}</h4>
             <div class="unit-price"><small>$</small>${item.price}</div>
             <div class="units">
-            <button>
+            <button onclick="changeNumberOfUnits('minus', ${item.id})">
               <div class="btn minus" >-</div>
             </button>
-              <div class="number">1</div>
-              <button>
+              <div class="number">${item.numberOfUnits}</div>
+              <button onclick="changeNumberOfUnits('plus', ${item.id})">
               <div class="btn plus" >+</div>
             </button>
             </div>
@@ -68,4 +69,23 @@ function renderCart(){
         </div>
         `
     })
+}
+
+//Function which allows to change amount of items in cart
+function changeNumberOfUnits(action,id){
+     cart=cart.map((item)=>{
+        let oldNumberOfUnits=item.numberOfUnits;
+        if(item.id===id){
+        if(action==='plus'&& oldNumberOfUnits<item.inStock){
+            oldNumberOfUnits++;
+        }else if(action==='minus' && oldNumberOfUnits>1){
+            oldNumberOfUnits--;
+        }
+        }
+        return{
+            ...item,
+            numberOfUnits:oldNumberOfUnits
+        } 
+     })
+     renderCart()
 }
