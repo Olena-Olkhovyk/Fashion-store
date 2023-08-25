@@ -161,6 +161,10 @@ body{
     color:white;
     cursor:pointer;
 }
+#hero .btn a  {
+    text-decoration: none;
+    color:black;
+}
 .hero-img{
     width: 400px;
     height: auto;
