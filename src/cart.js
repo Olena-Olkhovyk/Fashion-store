@@ -6,6 +6,8 @@ const closeCart=document.querySelector(".close");
 const cartCont=document.getElementById('cart');
 //Select container for items in the cart
 const cartItemsCont=document.querySelector(".cart-items");
+//Container for total price and items in container
+const subtotalCont=document.querySelector('.subtotal')
 
 //Opening cart
 openCart.addEventListener('click',()=>{
@@ -42,6 +44,7 @@ function addToCart(id){
 
 function updateCart(){
     renderCart();
+    renderSubtotal()
 }
 
 //Insert items into cart container
@@ -88,4 +91,19 @@ function changeNumberOfUnits(action,id){
         } 
      })
      renderCart()
+     renderSubtotal()
+}
+
+ //Function which count total price and total items in cart
+
+  function renderSubtotal(){
+    let totalPrice=0,totalItems=0;
+    cart.forEach((item)=>{
+        //Count total price - price of each item multyplying on amount items in total
+        totalPrice+=item.price*item.numberOfUnits;
+        totalItems+=item.numberOfUnits;
+    })
+    subtotalCont.innerHTML=`
+    Subtotal (${totalItems} items): $${(totalPrice.toFixed(2))}
+    `
 }
