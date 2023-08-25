@@ -594,9 +594,6 @@ font-size: 25px;
     #closeMenu:hover{
         color: #1a1a1a;
     }
-    .cart-icon{
-        display: none;
-    }
     .mobile{
         display: flex;
         font-size: 25px;
