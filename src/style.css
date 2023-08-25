@@ -79,7 +79,7 @@ body{
 #cart {
     width: 100%;
     position: relative;
-    /* display: none; */
+    display: none;
     padding: 15px 8px;
     background: #e3e6f3;
     cursor: pointer;

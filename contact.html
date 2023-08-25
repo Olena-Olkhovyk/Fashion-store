@@ -29,7 +29,12 @@
           <li><a href="shop.html">Shop</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html" class="active">Contact</a></li>
-          <li><i class="fa-solid fa-cart-shopping cart-icon"></i></li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-cart-shopping onl-cart"></i>
+            </a>
+            <div class="total-items-in-cart">0</div>
+          </li>
           <a href="#" id="closeMenu"><i class="fa-solid fa-xmark"></i></a>
         </ul>
       </div>
@@ -47,6 +52,23 @@
     <section id="cart">
       <!-- Render cart items -->
       <div class="cart-items">
+        <div class="cart-item">
+          <div class="items">
+            <a href="#"><i class="fa-solid fa-trash delete"></i></a>
+            <img src="./img/products/air force/shoes1.webp" alt="" />
+            <h4>Air force shoes</h4>
+            <div class="unit-price"><small>$</small>50</div>
+            <div class="units">
+              <button>
+                <div class="btn minus">-</div>
+              </button>
+              <div class="number"></div>
+              <button>
+                <div class="btn plus">+</div>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="cart-footer">
         <div class="subtotal">Subtotal (0 items): $0</div>
@@ -185,5 +207,6 @@
     </footer>
     <!-- END OF THE FOOTER -->
     <script src="./src/script.js"></script>
+    <script src="./src/cart.js"></script>
   </body>
 </html>
