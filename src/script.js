@@ -20,14 +20,14 @@ const allProductsContainer=document.querySelector(".all-items");
 //Insert summer collection clothes to landing page(ind.html)
 summerCollection.forEach((product)=>{
     productSummerContainer.innerHTML+= `
-    <div class="pro" onclick="redirectToProduct('${product.id}');">
-          <img
+    <div class="pro">
+          <img onclick="redirectToProduct('${product.id}');"
             src="${product.imgSrc}"
             alt="air force sport shoes"
           />
           <div class="description">
             <p>${product.brand}</p>
-            <h4>${product.name}</h4>
+            <h4 onclick="redirectToProduct('${product.id}');">${product.name}</h4>
             <h3>${product.price}$</h3>
           </div>
           <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
@@ -45,14 +45,14 @@ allProductsContainer.innerHTML='';
 //Insert all of the product items to shop page
 allProducts.forEach((product)=>{
     allProductsContainer.innerHTML+=`
-    <div class="pro" onclick="redirectToProduct('${product.id}');">
-          <img
+    <div class="pro">
+          <img onclick="redirectToProduct('${product.id}');"
             src="${product.imgSrc}"
             alt="air force sport shoes"
           />
           <div class="description">
             <p>${product.brand}</p>
-            <h4>${product.name}</h4>
+            <h4 onclick="redirectToProduct('${product.id}');">${product.name}</h4>
             <h3>${product.price}$</h3>
           </div>
           <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
