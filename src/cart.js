@@ -7,7 +7,9 @@ const cartCont=document.getElementById('cart');
 //Select container for items in the cart
 const cartItemsCont=document.querySelector(".cart-items");
 //Container for total price and items in container
-const subtotalCont=document.querySelector('.subtotal')
+const subtotalCont=document.querySelector('.subtotal');
+//Select container for storing amount all of the items in cart
+const totalItemEl=document.querySelector('.total-items-in-cart');
 
 //Opening cart
 openCart.addEventListener('click',()=>{
@@ -106,4 +108,6 @@ function changeNumberOfUnits(action,id){
     subtotalCont.innerHTML=`
     Subtotal (${totalItems} items): $${(totalPrice.toFixed(2))}
     `
+    //Insert on page amount of items in cart
+    totalItemEl.innerHTML=totalItems;
 }
