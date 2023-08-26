@@ -62,8 +62,8 @@ function renderCart(){
         <div class="cart-item">
           <div class="items">
             <a href='#' onclick='removeItem(${item.id})')><i class="fa-solid fa-xmark"></i></a>
-            <img src="${item.imgSrc}" alt="" />
-            <h4>${item.name}</h4>
+            <div class="img-container"><img src="${item.imgSrc}" alt="" /></div>
+            <div class="name-container"><h4>${item.name}</h4></div>
             <div class="unit-price"><small>$</small>${item.price}</div>
             <div class="units">
             <button onclick="changeNumberOfUnits('minus', ${item.id})">

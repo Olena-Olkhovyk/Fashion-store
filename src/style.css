@@ -83,32 +83,38 @@ body{
     padding: 15px 8px;
     background: #e3e6f3;
     cursor: pointer;
-  }
+}
 .items {
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
+}
 .delete{
     color: black;
 }
 .delete:hover{
     color:rgba(0, 0, 0, 0.637);
 }
+.img-container {
+    width: 50%;
+}
 #cart img {
     width: 40px;
     height: auto;
     margin-bottom: 10px;
-  }
+}
+.name-container {
+    width: 30%;
+}
 .unit-price {
     font-size: 20px;
     /* right: 250px; */
-  }
+}
 .units {
     display: flex;
     gap: 4px;
     /* right: 40px; */
-  }
+}
 .units button {
     height: 20px;
     width: 20px;
