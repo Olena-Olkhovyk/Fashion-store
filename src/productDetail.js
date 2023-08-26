@@ -62,7 +62,7 @@ if (product) {
     <option>Large</option>
   </select>
   <input type="number" value="1" />
-  <button>Add to cart</button>
+  <button onclick="addToCart(${product.id})">Add to cart</button>
   <h2>Product details</h2>
   <p>
     <span
