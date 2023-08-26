@@ -91,12 +91,13 @@ function changeNumberOfUnits(action,id){
             oldNumberOfUnits--;
         }
         }
-        localStorage.setItem("CART",JSON.stringify(cart));
         return{
             ...item,
             numberOfUnits:oldNumberOfUnits
         } 
      })
+     
+     localStorage.setItem("CART",JSON.stringify(cart));
      renderCart()
      renderSubtotal()
 }
