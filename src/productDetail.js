@@ -79,15 +79,8 @@ const mainImg = document.getElementById("mainImg");
 //Select all small pics
 const smallimgs = document.querySelectorAll(".small-img");
 //Make func which allows change big pic src when user click on small pic
-smallimgs[0].onclick = function () {
-  mainImg.src = smallimgs[0].src;
-};
-smallimgs[1].onclick = function () {
-  mainImg.src = smallimgs[1].src;
-};
-smallimgs[2].onclick = function () {
-  mainImg.src = smallimgs[2].src;
-};
-smallimgs[3].onclick = function () {
-  mainImg.src = smallimgs[3].src;
-};
+smallimgs.forEach((smallimg)=>{
+  smallimg.addEventListener('click',()=>{
+    mainImg.src=smallimg.src;
+  })
+})
