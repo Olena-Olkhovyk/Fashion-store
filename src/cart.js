@@ -27,11 +27,15 @@ let cart=JSON.parse(localStorage.getItem("CART"))||[];
 updateCart();
 
 function addToCart(id){
-    //Check if item is already in the cart
-    if(cart.some((item)=>item.id===id)){
-        //Then we increase item in cart
-        changeNumberOfUnits('plus',id)
-    }else{
+    //Check if item is already in cart
+    let existingItem=cart.find((item)=>item.id===id);
+    if(existingItem){
+        //If we have item in cart already we increase amount of item
+        existingItem.numberOfUnits+=1;
+        // Manually update cart with the modified existingItem
+        cart=cart.map((item)=>(item.id===id ? existingItem :item))
+    }
+     else{
     //Looking for item we pressed in items.js snd if its not in cart we push it to cart
      let item=allProducts.find((product)=>product.id===id)
      //Adding item to cart
