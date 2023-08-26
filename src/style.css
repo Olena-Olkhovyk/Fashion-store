@@ -384,7 +384,7 @@ footer .copyr{
 }
 /*End of shop page*/
 /*Product page*/
-#pro-details{
+.detailCont{
     padding: 15px;
     display: flex;
 }
@@ -652,6 +652,20 @@ font-size: 25px;
         text-align: center;
     }
     .people {
+        margin: 0 auto;
+    }
+}
+@media(max-width:800px){
+    /* product-page */
+    .detailCont{
+        flex-direction: column;
+    }
+    #pro-details .single-pro-image {
+        width: 100%;
+        margin:0 auto;
+    }
+    .single-pro-details {
+        width: 100%;
         margin: 0 auto;
     }
 }
