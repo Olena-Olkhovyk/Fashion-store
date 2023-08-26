@@ -53,7 +53,7 @@ if (product) {
 </div>
 <div class="single-pro-details">
   <h3>${product.name}</h3>
-  <h2>${product.price}</h2>
+  <h2>$${product.price}</h2>
   <select>
     <option>Select size</option>
     <option>XL</option>
