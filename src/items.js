@@ -59,7 +59,7 @@ const summerCollection = [
       id: 7,
       imgSrc: "./img/products/ZIP HOODY/sweater.webp" ,
       brand: "ZIP HOODY - Zip-up sweatshirt",
-      name: "Tracksuit bottoms",
+      name: "Zip-up sweatshirt",
       inStock: 10,
       price: 110,
     },
@@ -127,7 +127,7 @@ const allProducts=[
         id: 7,
         imgSrc: "./img/products/ZIP HOODY/sweater.webp" ,
         brand: "ZIP HOODY - Zip-up sweatshirt",
-        name: "Tracksuit bottoms",
+        name: "Zip-up sweatshirt",
         inStock: 10,
         price: 110,
       },
@@ -157,7 +157,7 @@ const allProducts=[
       },
       {
         id: 11,
-        imgSrc: "./img/products/light-jacket/ljacket.webp" ,
+        imgSrc: "./img/products/light-jacket/ljaket.webp" ,
         brand: "Threadbare",
         name: "LUXE - Light jacket",
         inStock: 50,
@@ -194,7 +194,7 @@ const detailProducts=[
         imgSrc4:"./img/products/shirt/shirt4.webp",
         name:"JOIN LIFE - Basic T-shirt",
         price:"99",
-        details:"later"
+        details:"A T-shirt (also spelled tee shirt), or tee for short, is a style of fabric shirt named after the T shape of its body and sleeves. Traditionally, it has short sleeves and a round neckline, known as a crew neck, which lacks a collar. T-shirts are generally made of a stretchy, light, and inexpensive fabric and are easy to clean. The T-shirt evolved from undergarments used in the 19th century and, in the mid-20th century, transitioned from undergarment to general-use casual clothing."
     },
     {
         id:3,
@@ -204,16 +204,86 @@ const detailProducts=[
         imgSrc4:"./img/products/shoos/lacosta4.webp",
         name:"T-CLIPS -Modern Trainers",
         price:"90",
-        details:"later"
+        details:"A new modern classic: the T-Clip. 80s detailing. Vintage silhouette. Blended with modern flair.  Leather, synthetic and textile uppers:  Soft and premium leather designed in natural hues."
+      },
+    {
+      id:4,
+      imgSrcBig:"./img/products/sportswear/1.webp",
+      imgSrc2:"./img/products/sportswear/2.webp",
+      imgSrc3:"./img/products/sportswear/3.webp",
+      imgSrc4:"./img/products/sportswear/4.webp",
+      name:"CLUB - Tracksuit bottoms",
+      price:"50",
+      details:"Nike offers an array of tracksuit bottoms that move with you—whatever the activity, whether it's breaking a sweat or sitting courtside at a basketball game. If you're in the market for comfortable, long-lasting choices, you've come to the right place. This round-up of Nike tracksuit bottoms for men ticks all the boxes."
     },
     {
-        id:4,
-        imgSrcBig:"./img/products/shoos/lacosta1.webp",
-        imgSrc2:"./img/products/shoos/lacosta2.webp",
-        imgSrc3:"./img/products/shoos/lacosta3.webp",
-        imgSrc4:"./img/products/shoos/lacosta4.webp",
-        name:"T-CLIPS -Modern Trainers",
-        price:"90",
-        details:"later"
-    },
+      id:5,
+      imgSrcBig:"./img/products/t-shirts/black.webp",
+      imgSrc2:"./img/products/t-shirts/brown.webp",
+      imgSrc3:"./img/products/t-shirts/violet.webp",
+      imgSrc4:"./img/products/t-shirts/white4.webp",
+      name:"Basic T-shirt",
+      price:"30",
+      details:"Caring for your garments is a way to extend their useful life. Follow the care instructions and only wash your garments when necessary. Washing and drying our garments less often extends their lives and reduces water and energy use."
+  },
+  {
+    id:6,
+    imgSrcBig:"./img/products/Tracksuit bottoms/Tracksuit bottoms.webp",
+    imgSrc2:"./img/products/Tracksuit bottoms/Tracksuit bottoms2.webp",
+    imgSrc3:"./img/products/Tracksuit bottoms/Tracksuit bottoms3.webp",
+    imgSrc4:"./img/products/Tracksuit bottoms/Tracksuit bottoms4.webp",
+    name:"Tracksuit bottoms",
+    price:"100",
+    details:"Nike offers an array of tracksuit bottoms that move with you—whatever the activity, whether it's breaking a sweat or sitting courtside at a basketball game. If you're in the market for comfortable, long-lasting choices, you've come to the right place. This round-up of Nike tracksuit bottoms for men ticks all the boxes."
+},
+{
+  id:7,
+  imgSrcBig:"./img/products/ZIP HOODY/sweater.webp",
+  imgSrc2:"./img/products/ZIP HOODY/sweater2.webp",
+  imgSrc3:"./img/products/ZIP HOODY/sweater3.webp",
+  imgSrc4:"./img/products/ZIP HOODY/sweater4.webp",
+  name:"Zip-up sweatshirt",
+  price:"110",
+  details:"A hoodie  is a sweatshirt with a hood. Hoodies with zippers usually include two pockets on the lower front, one on either side of the zipper, while pullover hoodies (without zippers) often include a single large muff or pocket in the same location."
+},
+{
+  id:8,
+  imgSrcBig:"./img/products/format shirts/format shirt.webp",
+  imgSrc2:"./img/products/format shirts/formatshirt2.webp",
+  imgSrc3:"./img/products/format shirts/formatshirt3.webp",
+  imgSrc4:"./img/products/format shirts/formatimage4.webp",
+  name:"JASON SLIM FIT - Formal shirt",
+  price:"55",
+  details:"A formal shirt  otherwise known as the dress shirt  can be identified by its stiff collar, lustrous fabric, long tails and single or double cuffs. Although patterned versions are available, the most popular styles come in conservative colours such as white, blue or pink."
+},
+{
+  id:9,
+  imgSrcBig:"./img/products/jakets/jakets.webp",
+  imgSrc2:"./img/products/jakets/jakets2.webp",
+  imgSrc3:"./img/products/jakets/jakets3.webp",
+  imgSrc4:"./img/products/jakets/jakets4.webp",
+  name:"Windbreaker",
+  price:"90",
+  details:"Cotton: A natural fiber that is fluffy, soft, a great insulator, and can be dyed in many different colors. Cotton is not waterproof and does not offer good protection from the wind."
+},
+{
+  id:10,
+  imgSrcBig:"./img/products/top/top.webp",
+  imgSrc2:"./img/products/top/top2.webp",
+  imgSrc3:"./img/products/top/top3webp.webp",
+  imgSrc4:"./img/products/top/top4.webp",
+  name:"BIG TALL HENLEY - Long sleeved top",
+  price:"20",
+  details:"T-shirt  also tee shirt, a casual shirt without a collar or buttons, made of a stretchy, finely knit fabric, usually cotton, and usually short-sleeved. Originally worn under other shirts, it is now a common shirt for everyday wear in some countries. Long-sleeved T-shirt – a T-shirt with long sleeves that extend to cover the arms."
+},
+{
+  id:11,
+  imgSrcBig:"./img/products/light-jacket/ljaket.webp",
+  imgSrc2:"./img/products/light-jacket/jak2.webp",
+  imgSrc3:"./img/products/light-jacket/jak3.webp",
+  imgSrc4:"./img/products/light-jacket/jak4.webp",
+  name:"LUXE - Light jacket",
+  price:"80",
+  details:"Cotton: A natural fiber that is fluffy, soft, a great insulator, and can be dyed in many different colors. Cotton is not waterproof and does not offer good protection from the wind."
+},
 ]
