@@ -61,8 +61,8 @@ if (product) {
     <option>Small</option>
     <option>Large</option>
   </select>
-  <input type="number" value="1" />
-  <button onclick="addToCart(${product.id})">Add to cart</button>
+  <input type="number" value="1" class="input" />
+  <button onclick="addToCart(${product.id},countItem())">Add to cart</button>
   <h2>Product details</h2>
   <p>
     <span
@@ -74,6 +74,11 @@ if (product) {
   `;
 }
 
+function countItem(){
+  const input=document.querySelector(".input");
+  const inputValue=input.value;
+  return inputValue;
+}
 //Select main big picture
 const mainImg = document.getElementById("mainImg");
 //Select all small pics

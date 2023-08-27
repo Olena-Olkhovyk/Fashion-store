@@ -26,12 +26,13 @@ closeCart.addEventListener('click',()=>{
 let cart=JSON.parse(localStorage.getItem("CART"))||[];
 updateCart();
 
-function addToCart(id){
+function addToCart(id,val){
+    const currentValue=val ? val : 1;
     //Check if item is already in cart
     let existingItem=cart.find((item)=>item.id===id);
     if(existingItem){
         //If we have item in cart already we increase amount of item
-        existingItem.numberOfUnits+=1;
+        existingItem.numberOfUnits+=parseInt(currentValue);
         // Manually update cart with the modified existingItem
         cart=cart.map((item)=>(item.id===id ? existingItem :item))
     }
@@ -44,7 +45,7 @@ function addToCart(id){
         //Copy all of the old properties from item
         ...item,
         //Add new property to be able to see how many the same product items we have in cart
-        numberOfUnits:1
+        numberOfUnits:parseInt(currentValue),
         }
         )
     }
