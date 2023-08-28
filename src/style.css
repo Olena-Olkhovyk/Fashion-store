@@ -57,11 +57,19 @@ body{
 }
 .onl-cart{
     position: relative;
+    position: absolute;
+    right: 40px;
+    top: 35px;
+    font-size: 19px;
+    color: black;
 }
+.onl-cart:hover {
+    color: rgba(0, 0, 0, 0.642);
+  }
 .total-items-in-cart{
     position: absolute;
-    right: 0px;
-    top:-10px;
+    right: 20px;
+    top:15px;
     font-size: 19px;
     font-weight: bold;
     background-color: rgba(219, 129, 19, 0.881);
@@ -608,6 +616,9 @@ font-size: 25px;
     #closeMenu:hover{
         color: #1a1a1a;
     }
+    .onl-cart {
+        right: 30px;
+      }
     .mobile{
         display: flex;
         font-size: 25px;
