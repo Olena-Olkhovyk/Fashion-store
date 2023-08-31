@@ -64,6 +64,9 @@
       </h1>
     </section>
     <!-- END OF HERO SECTION -->
+    <section class="submit-msg">
+    <p>Thank you! We will get in touch with you!</p>
+  </section>
     <!-- DETAILS MAP SECTION -->
     <section id="contact-details">
       <div class="details">
@@ -104,13 +107,13 @@
     <!-- END DETAILS MAP SECTION -->
     <!-- CONTACT FORM -->
     <section id="form">
-      <form action="">
+      <form action="#" id="myForm">
         <h1>We love to hear from you!</h1>
         <label for="name">
-          <input type="text" class="input" placeholder="Enter your name" />
+          <input type="text" class="input" placeholder="Enter your name" required />
         </label>
         <label for="email">
-          <input type="email" class="input" placeholder="Enter your email" />
+          <input type="email" class="input" placeholder="Enter your email" required />
         </label>
         <textarea
           name="message"
@@ -187,6 +190,7 @@
     </footer>
     <!-- END OF THE FOOTER -->
     <script src="./src/script.js"></script>
+    <script src="./src/form.js"></script>
     <script src="./src/cart.js"></script>
   </body>
 </html>
