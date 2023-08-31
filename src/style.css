@@ -97,6 +97,11 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+.border{
+    border: 2px solid rgba(0, 0, 0, 0.511);
+    padding: 30px;
+    margin: 10px;
+}
 .delete{
     color: black;
 }
