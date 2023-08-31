@@ -323,7 +323,7 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0 20px;
+    padding: 9px 20px;
     background-color: #E3E6F3;
 }
 footer .col{
@@ -344,7 +344,7 @@ footer .col a i{
     font-size: 20px;
 }
 footer .col a i:hover{
-    font-size: 25px;
+   background-color: #1a1a1a15;
 }
 footer .col a{
     color:gray;
