@@ -536,6 +536,7 @@ font-size: 25px;
 }
 #form form textarea{
     margin-bottom: 1rem;
+    resize: none;
 }
 #form button{
     margin:0 auto;
