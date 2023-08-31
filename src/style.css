@@ -532,11 +532,18 @@ font-size: 25px;
 #form form .input{
     width: 100%;
     padding: 12px 15px;
-    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;
 }
 #form form textarea{
+    margin-top: 1rem;
     margin-bottom: 1rem;
     resize: none;
+    padding: 12px;
+    font-size: 19px;
+    font-weight: bold;
+}
+#form form textarea::placeholder{
+    font-family:Arial, Helvetica, sans-serif;
 }
 #form button{
     margin:0 auto;
@@ -546,6 +553,7 @@ font-size: 25px;
     font-size: 16px;
     font-weight: bold;
     transition: all 0.3s ease;
+    margin-bottom: 1rem;
 }
 #form button:hover{
     background-color:#DC8D2E;
