@@ -69,6 +69,7 @@ const summerCollection = [
 const allProducts=[
     {
         id: 0,
+        category:"shoes",
         imgSrc: "./img/products/air force/shoes1.webp",
         brand: "Nike Sportswear",
         name: "AIR FORCE 1 07 - Trainers",
@@ -85,6 +86,7 @@ const allProducts=[
       },
       {
         id: 2,
+        category:"shirt",
         imgSrc: "./img/products/shirt/short sleeve - Shirt.webp",
         brand: "PULL&BEAR",
         name: "JOIN LIFE - Basic T-shirt",
@@ -93,6 +95,7 @@ const allProducts=[
       },
       {
         id: 3,
+        category:"shoes",
         imgSrc: "./img/products/shoos/lacosta1.webp",
         brand: "Lacoste",
         name: "T-CLIPS -Modern Trainers",
@@ -101,6 +104,7 @@ const allProducts=[
       },
       {
         id: 4,
+        category:"sweatpants",
         imgSrc: "./img/products/sportswear/1.webp",
         brand: "Nike Sportswear",
         name: "CLUB - Tracksuit bottoms",
@@ -109,6 +113,7 @@ const allProducts=[
       },      
       {
         id: 5,
+        category:"shirt",
         imgSrc: "./img/products/t-shirts/black.webp" ,
         brand: "Bershka",
         name: "Basic T-shirt",
@@ -117,6 +122,7 @@ const allProducts=[
       },
       {
         id: 6,
+        category:"sweatpants",
         imgSrc: "./img/products/Tracksuit bottoms/Tracksuit bottoms.webp" ,
         brand: "Urban Classics",
         name: "Tracksuit bottoms",
@@ -125,6 +131,7 @@ const allProducts=[
       },
       {
         id: 7,
+        category:"hoody",
         imgSrc: "./img/products/ZIP HOODY/sweater.webp" ,
         brand: "ZIP HOODY - Zip-up sweatshirt",
         name: "Zip-up sweatshirt",
@@ -133,6 +140,7 @@ const allProducts=[
       },
     {
         id: 8,
+        category:"shirt",
         imgSrc: "./img/products/format shirts/format shirt.webp" ,
         brand: "HUGO",
         name: "JASON SLIM FIT - Formal shirt",
@@ -141,6 +149,7 @@ const allProducts=[
       },
       {
         id: 9,
+        category:"jaket",
         imgSrc: "./img/products/jakets/jakets.webp" ,
         brand: "Nike Sportswear",
         name: "Windbreaker",
@@ -149,6 +158,7 @@ const allProducts=[
       },
       {
         id: 10,
+        category:"shirt",
         imgSrc: "./img/products/top/top.webp" ,
         brand: "JP1880",
         name: "BIG TALL HENLEY - Long sleeved top",
@@ -157,6 +167,7 @@ const allProducts=[
       },
       {
         id: 11,
+        category:"jaket",
         imgSrc: "./img/products/light-jacket/ljaket.webp" ,
         brand: "Threadbare",
         name: "LUXE - Light jacket",
