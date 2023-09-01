@@ -28,6 +28,7 @@ const btns=document.querySelectorAll('.btn-filter');
 btns.forEach((btn)=>{
     //Add event to each of them
     btn.addEventListener('click',(e)=>{
+        e.preventDefault();
         //Find buttons category
         const btnCategory=e.currentTarget.dataset.id;
         //Looping through all of the items 
