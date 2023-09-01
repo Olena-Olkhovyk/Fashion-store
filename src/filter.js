@@ -29,6 +29,10 @@ btns.forEach((btn)=>{
     //Add event to each of them
     btn.addEventListener('click',(e)=>{
         e.preventDefault();
+        //Remove active class
+        document.querySelector('.active-btn')?.classList.remove('active-btn');
+        //Add active class for btn which we press
+        btn.classList.add('active-btn');
         //Find buttons category
         const btnCategory=e.currentTarget.dataset.id;
         //Looping through all of the items 
