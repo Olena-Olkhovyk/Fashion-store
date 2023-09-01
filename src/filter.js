@@ -20,7 +20,7 @@ input.addEventListener('keyup',()=>{
     }
   
 })
-
+const prodConntainer=document.querySelector('.products-container')
 //BUTTONS FILTERING
 //Select all btn
 const btns=document.querySelectorAll('.btn-filter');
@@ -45,6 +45,7 @@ btns.forEach((btn)=>{
         if(btnCategory==="all"){
             allProd(allProducts)
         }else{
+            prodConntainer.style.justifyContent='start';
             allProd(productCategory)
         }
     })

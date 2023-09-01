@@ -237,6 +237,8 @@ body{
 #product1 .products-container{
   display: flex;
   justify-content: space-between;
+  padding: 20px;
+  gap:1rem;
   flex-wrap: wrap;
 }
 #product1 .pro{
@@ -409,7 +411,7 @@ input::placeholder{
     background-color:#DC8D2E;
     color:white;
     cursor:pointer;
-    transition:  0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 .active-btn{
     background-color:#DC8D2E;
