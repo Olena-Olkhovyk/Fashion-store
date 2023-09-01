@@ -389,6 +389,32 @@ input::placeholder{
     font-weight: bold;
     font-size: 20px;
 }
+.btns-container{
+    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:8px;
+}
+.btn-filter{
+    padding: 15px 25px;
+    border: 1px solid #DC8D2E;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+}
+.btn-filter:hover{
+    background-color:#DC8D2E;
+    color:white;
+    cursor:pointer;
+}
+.active-btn{
+    background-color:#DC8D2E;
+    color:white;
+    cursor:pointer;
+}
 .shop-footer{
     margin-top: 2rem;
 }
@@ -754,6 +780,12 @@ font-size: 25px;
         width: 100%;
         height:auto;
         margin-bottom: 0;
+    }
+    /* SHOP PAGE */
+    .btn-filter {
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 15px;
     }
 }
 @media(max-width:350px){
