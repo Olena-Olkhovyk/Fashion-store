@@ -20,3 +20,27 @@ input.addEventListener('keyup',()=>{
     }
   
 })
+
+//BUTTONS FILTERING
+//Select all btn
+const btns=document.querySelectorAll('.btn-filter');
+//Looping through each of them
+btns.forEach((btn)=>{
+    //Add event to each of them
+    btn.addEventListener('click',(e)=>{
+        //Find buttons category
+        const btnCategory=e.currentTarget.dataset.id;
+        //Looping through all of the items 
+        const productCategory=allProducts.filter((productItem)=>{
+            //Compare btn id(category) and items category
+            if(btnCategory===productItem.category){
+               return productItem; 
+            }
+        })
+        if(btnCategory==="all"){
+            allProd(allProducts)
+        }else{
+            allProd(productCategory)
+        }
+    })
+})

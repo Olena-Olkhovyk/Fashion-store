@@ -40,6 +40,7 @@ function redirectToProduct(product_id){
     window.location.href=`product.html?product_id=${product_id}`;
 }
 
+function allProd(allProducts){
 //Clear container
 allProductsContainer.innerHTML='';
 //Insert all of the product items to shop page
@@ -59,4 +60,6 @@ allProducts.forEach((product)=>{
         </div>
     `
 })
+}
+
 
