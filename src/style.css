@@ -565,6 +565,7 @@ input::placeholder{
 #contact-details .details span{
     color: grey;
     font-size: 20px;
+    color:black;
 }
 #contact-details .details h2{
     padding:10px 0;
@@ -578,6 +579,9 @@ input::placeholder{
     list-style: none;
     padding: 8px 0;
     font-size: 18px;
+}
+#contact-details .details li i{
+    padding: 5px;
 }
 #form{
     display:flex;
