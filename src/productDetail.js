@@ -9,13 +9,6 @@ const product = detailProducts.find((product) => product.id == productId);
 if (product) {
   detailCont.innerHTML += `
   <div class="single-pro-image">
-  <img
-    src="${product.imgSrcBig}"
-    width="100%"
-    id="mainImg"
-    class="firstImg"
-    alt="air force"
-  />
   <div class="small-imgs">
     <div class="small-img-col">
       <img
@@ -50,6 +43,13 @@ if (product) {
       />
     </div>
   </div>
+  <img
+    src="${product.imgSrcBig}"
+    width="100%"
+    id="mainImg"
+    class="firstImg"
+    alt="air force"
+  />
 </div>
 <div class="single-pro-details">
   <h3>${product.name}</h3>

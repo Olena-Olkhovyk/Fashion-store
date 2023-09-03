@@ -442,36 +442,39 @@ input::placeholder{
 .detailCont{
     padding: 15px;
     display: flex;
+    gap:12rem;
 }
-#pro-details .single-pro-image{
+.single-pro-image{
     width: 40%;
-    margin-right: 50px;
-}
-.small-imgs{
     display: flex;
-    justify-content: space-between;
+    gap:1rem;
 }
-.small-img-col{
-    cursor: pointer;
-    flex-basis: 24%;
+.small-img{
+    width: 93px;
+    height: auto;
 }
+.firstImg{
+    width: 500px;
+    height: 550px;
+}
+
 .single-pro-details{
     padding-top: 25px;
-    width: 50%;
-}
+    width: 40%;
+} 
 #pro-details h3{
-padding: 20px 0 30px 0;
-font-size: 25px;
+    padding: 20px 0 30px 0;
+    font-size: 25px;
 }
 #pro-details select{
-    padding: 5px 10px;
+     padding: 5px 10px; 
     display: block;
     margin:10px 0;
 }
 #pro-details input{
     width: 45px;
     height: 41px;
-    padding-left: 10px;
+     padding-left: 10px; 
     margin-bottom: 30px;
     font-size: 17px;
 }
@@ -479,8 +482,8 @@ font-size: 25px;
     outline: none;
 }
 #pro-details button{
-    margin-left: 5rem;
-    padding: 15px 25px;
+    margin-left: 5rem; 
+    padding: 15px 25px; 
     border: 1px solid #DC8D2E;
     border-radius: 7px;
     font-size: 18px;
@@ -496,7 +499,7 @@ font-size: 25px;
     font-size: 18px;
     margin-top: 10px;
     line-height: 20px;
-}
+} */
 /*End of product page*/
 /* ABOUT PAGE */
 #about-hero{
@@ -734,14 +737,28 @@ font-size: 25px;
     /* product-page */
     .detailCont{
         flex-direction: column;
+        justify-content: center;
+        gap:0.5rem;
+        padding: 10px;
     }
-    #pro-details .single-pro-image {
-        width: 100%;
-        margin:0 auto;
+    .firstImg{
+        width: 700px;
+        height: 800px;
+    }
+    .small-img{
+        width: 136px;
     }
     .single-pro-details {
         width: 100%;
-        margin: 0 auto;
+    } 
+}
+@media(max-width:715px){
+    .firstImg{
+        width: 550px;
+        height: 585px;
+    }
+    .small-img{
+        width: 100px;
     }
 }
 @media(max-width:500px){
@@ -771,9 +788,12 @@ font-size: 25px;
         display: flex;
         flex-direction: column;
     }
-    #pro-details .single-pro-image {
-        width: 100%;
-        margin-right: 0px;
+    .firstImg{
+        width: 300px;
+        height: 350px;
+    }
+    .small-img{
+        width: 58px;
     }
     .single-pro-details {
         width: 100%;
