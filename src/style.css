@@ -594,6 +594,8 @@ input::placeholder{
     width: 100%;
     padding: 12px 15px;
     margin-bottom: 0.3rem;
+    font-weight: bold;
+    font-size: 19px;
 }
 #form form textarea{
     margin-top: 1rem;
