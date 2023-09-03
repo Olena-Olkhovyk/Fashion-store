@@ -159,11 +159,27 @@ body{
     font-size: 40px;
     margin-bottom: 0.5rem;
     color:#DC8D2E;
+    transform: translate(0px,120%);
+    transition: all 0.7s ease 0s;
+    opacity: 0;
+}
+#hero h1.active-animation{
+    transform: translate(0px,0px);
+    opacity: 1;
+    transition: all 0.7s ease;
 }
 #hero h4{
     font-size: 25px;
     margin-bottom: 1rem;
     padding-left: 3.5rem;
+    transform: translate(0px,120%);
+    transition: all 0.8s ease 0s;
+    opacity: 0;
+}
+#hero h4.active-animation{
+    transform: translate(0px,0px);
+    opacity: 1;
+    transition: all 0.8s ease 0.3s;
 }
 #hero .btn{
     display: block;
