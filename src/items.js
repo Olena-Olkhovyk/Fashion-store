@@ -168,7 +168,7 @@ const allProducts=[
       {
         id: 11,
         category:"jaket",
-        imgSrc: "./img/products/light-jacket/ljaket.webp" ,
+        imgSrc: "./img/products/light-jacket/ljacket.webp" ,
         brand: "Threadbare",
         name: "LUXE - Light jacket",
         inStock: 50,

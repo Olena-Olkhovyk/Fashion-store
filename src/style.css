@@ -312,7 +312,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../img/banner/ban.jpg);
+    background-image: url(../img/banner/ban.webp);
     background-size: cover;
     background-position: top 35% center;
     width: 100%;
@@ -389,7 +389,7 @@ footer .copyr{
     cursor: pointer;
 }
 #shop-hero{
-    background-image: url(../img/banner/ban2.jpg);
+    background-image: url(../img/banner/ban2.webp);
     background-position: right 70% top 50%;
     background-size: cover;
     width: 100%;
@@ -503,7 +503,7 @@ input::placeholder{
 /*End of product page*/
 /* ABOUT PAGE */
 #about-hero{
-    background-image: url(../img/banner/back.jpg);
+    background-image: url(../img/banner/back.webp);
     background-position: right 70% top 50%;
     background-size: cover;
     width: 100%;
