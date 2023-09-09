@@ -821,7 +821,7 @@ input::placeholder{
         width: 100%;
     }
     .about-details{
-        padding-left: 0px;
+        padding: 10px;
      }
      /*CONTACT PAGE*/
      #contact-details {
