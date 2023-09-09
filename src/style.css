@@ -207,14 +207,15 @@ body{
 /* FEATURE SECTION */
 #feature{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
     flex-wrap: wrap;
 }
 .feature-box{
     width:200px;
     border:1px solid black;
-    margin: 2rem;
-    
+    margin: 1.4rem;
 }
 .feature-box:hover{
     background-color:#dc8e2ea1;
@@ -718,11 +719,11 @@ input::placeholder{
     #hero .btn{
         margin-left: 50px;
     }
-    #feature {
-        justify-content:center;
+    #feature{
+        gap:0.1rem;
     }
-    .feature-box {
-        margin: 1rem;
+    .feature-box{
+        width:180px;
     }
     #product1 .products-container {
         justify-content: center;
@@ -778,7 +779,7 @@ input::placeholder{
 }
 @media(max-width:500px){
     .feature-box {
-        width: 350px;
+        width: 330px;
         border: 1px solid black;
         margin: 2rem;
     }
