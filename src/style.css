@@ -182,23 +182,21 @@ body{
     transition: all 0.8s ease 0.3s;
 }
 #hero .btn{
-    display: block;
+    display: inline-block;
     margin-left: 12rem;
-    padding: 15px 25px;
+    padding: 13px 20px;
     border: 1px solid #DC8D2E;
     border-radius: 7px;
     font-size: 18px;
     font-weight: bold;
+    text-decoration: none;
+    color:black;
     transition: all 0.3s ease;
 }
 #hero .btn:hover{
     background-color:#DC8D2E;
     color:white;
     cursor:pointer;
-}
-#hero .btn a  {
-    text-decoration: none;
-    color:black;
 }
 .hero-img{
     width: 400px;
@@ -701,19 +699,14 @@ input::placeholder{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     #hero .sub-header {
         margin-top: 2rem;
     }
-    #hero h1 {
-        text-align: center;
-    }
-    #hero h4 {
-        text-align: center;
-    }
-    #hero .btn {
-        display: block;
-        margin: 0 auto;
+    #hero .btn{
+        margin-left: 50px;
     }
     #feature {
         justify-content:center;
@@ -787,6 +780,7 @@ input::placeholder{
     }
     #hero h4 {
         font-size: 15px;
+        padding-left: 1.4rem;
     }
     #pro-details {
         display: flex;
