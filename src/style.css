@@ -320,7 +320,7 @@ body{
     font-size: 30px;
     margin-bottom: 1rem;
 }
-#banner button{
+#banner a{
     padding: 15px 25px;
     border: 1px solid #DC8D2E;
     border-radius: 7px;
@@ -328,7 +328,7 @@ body{
     font-weight: bold;
     transition: all 0.3s ease;
 }
-#banner button:hover{
+#banner a:hover{
     background-color:#DC8D2E;
     color:white;
     cursor:pointer;
