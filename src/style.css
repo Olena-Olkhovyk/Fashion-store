@@ -681,10 +681,8 @@ input::placeholder{
     #closeMenu{
         display: block;
         position: absolute;
-        top:0;
+        top:-20px;
         left:10px;
-        font-size: 30px;
-        color: black;
     }
     #closeMenu:hover{
         color: #1a1a1a;
